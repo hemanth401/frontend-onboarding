@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Hemanth Learning Portal<br />
+        Please login to continue.
+      </h1>
+    </header>
+    <form>
+      <label for="name">Username:</label>
+      <input
+        type="text"
+        id="name"
+        name="username"
+        placeholder="Enter your username"
+        minlength="5"
+        maxlength="15"
+        required
+      /><br /><br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        minlength="8"
+        maxlength="12"
+        required
+      /><br /><br />
+      <label for="remember">Remember:</label>
+      <input type="checkbox" id="remember" name="remember" /><br />
+      <button type="submit">Login</button>
+      <button type="reset">Reset</button><br />
+      <a href="#">Forget password?</a><br />
+      <a href="#">Create Account</a>
+    </form>
+  </body>
+</html>
