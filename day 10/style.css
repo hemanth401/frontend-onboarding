@@ -1,0 +1,33 @@
+*{
+    margin:0;
+    border:0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color:white;
+}
+#heading{
+    color:blue;
+    text-align: center;
+}
+h2{
+    color:red;
+}
+.text{
+    color:green;
+    line-height:2;
+}
+.c{
+    color:violet;
+}
+button{
+    background-color:yellow;
+    color:black;
+    cursor: pointer;
+}
+div{
+    background-color:black;
+    margin: 5px;
+    border:2px solid red;
+    padding: 1px;
+}
