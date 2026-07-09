@@ -1,0 +1,47 @@
+*{
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+    font-family: 1em sans-serif;
+}
+div{
+    color:black;
+    font-size: medium;
+    font-weight: 200;
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: normal;
+    width:auto;
+    height: auto;
+    border: 20px;
+    border-radius: 10px;
+    
+}
+h2{
+    color: navy;
+    font-family: cursive;
+    font-size: large;
+}
+p{
+    color: dimgray;
+}
+header{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: blue;
+
+}
+.foot{
+    color:blue;
+}
+ol,li{
+    color:dimgray;
+}
+.link{
+    text-decoration:none;
+}
