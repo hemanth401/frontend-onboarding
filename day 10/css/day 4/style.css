@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+header{
+    color:black;
+    text-align: center;
+    border:2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+nav{
+    word-spacing: 125px;
+    background-color: yellow;
+    border-radius: 10px;
+    border:2px solid black;
+    text-decoration: none;
+    color: dimgray;
+    padding:15px;
+    margin-bottom: 25px;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+h1{
+    color: darkred;
+}
+h2{
+    color: firebrick;
+}
+p{
+    color: black;
+}
+button{
+    color: crimson;
+   background-color:white;
+}
+footer{
+    text-align: center;
+    color:blue;
+    padding:20px;
+    margin-top:30px;
+}
+.card{
+    background-color: aqua;
+}
+.div1{
+    background-color: lightslategray;
+    border-radius: 20px;
+    display: block;
+    box-shadow:10px 20px 30px black;
+    text-align: center;
+}
+.div2{
+    background-color: lightpink;
+    border-radius: 20px;
+    box-shadow:10px 20px 30px black;
+    text-align: center;
+}
+.div3{
+    background-color: lightsalmon;
+    border-radius: 20px;
+    box-shadow:10px 20px 30px black;
+    text-align: center;
+}
+.success{
+    background-color: gold;
+    width:500px;
+    border-style: dotted;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 20px 30px red;
+}
+.journey{
+    padding:25px;
+    border:2px solid gray;
+    border-radius:15px;
+    margin-bottom:20px;
+
+}
+table{
+    margin-top:15px;
+    margin-bottom:25px;
+    border:2px solid black;
+    text-align: center;
+}
+ul{
+    margin-left:35px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+    .trainer{
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:20px;
+    box-shadow:10px 10px 20px gray;
+    
+}
+details{
+    padding:15px;
+    margin:20px 0;
+    border:2px solid gray;
+    border-radius:10px;
+}
+.about{
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+.contacts{
+    padding-top:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
