@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brew Haven</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Brew Haven</h1>
+      <p>Fresh Coffee, Fresh Start</p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Menu">Menu</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#Reviews">Reviews</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <h2>Experience the Perfect Cup of Coffee</h2>
+        <p>
+          At Brew Haven, every cup is crafted with freshly roasted beans, rich
+          flavors, and a passion for bringing people together.
+        </p>
+        <button type="submit">Order now</button>
+        <button type="button">View Menu</button>
+      </section>
+      <section class="about">
+        <h2 id="about">About Brew Haven</h2>
+        <p>
+          Since 2015, Brew Haven has been serving handcrafted coffee made from
+          premium beans sourced from the world's finest coffee farms. We focus
+          on quality, comfort, and creating memorable moments for every
+          customer.
+        </p>
+      </section>
+      <section class="featured">
+        <div>
+          <h2>Featured Coffee</h2>
+          <ol>
+            <li>Espresso</li>
+            <li>Cappuccino</li>
+            <li>Latte</li>
+            <li>Mocha</li>
+            <li>Cold Brew</li>
+            <li>Caramel Macchiato</li>
+          </ol>
+        </div>
+      </section>
+      <h2 id="Menu">Menu Tabel</h2>
+      <table border="3" padding="5px" width="1000">
+        <tr>
+          <th>Coffee</th>
+          <th>Size</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Espresso</td>
+          <td>small</td>
+          <td>120</td>
+        </tr>
+        <tr>
+          <td>Cappuccino</td>
+          <td>medium</td>
+          <td>180</td>
+        </tr>
+        <tr>
+          <td>Latte</td>
+          <td>large</td>
+          <td>220</td>
+        </tr>
+        <tr>
+          <td>Mocha</td>
+          <td>medium</td>
+          <td>220</td>
+        </tr>
+        <tr>
+          <td>cold brew</td>
+          <td>large</td>
+          <td>250</td>
+        </tr>
+      </table>
+      <section class="special">
+        <h2>Today's Special</h2>
+        <p class="special-offer">
+          Buy one Cappuccino and get one Espresso absolutely free between 4 PM
+          and 6 PM.
+        </p>
+      </section>
+      <section class="reviews">
+        <div id="Reviews" class="review-card">
+          <h3>Aarav</h3>
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>"The best coffee in town!"</p>
+        </div>
+        <div class="review-card">
+          <h3>Sneha</h3>
+          <p>⭐⭐⭐⭐☆</p>
+          <p>"Wonderful ambience and friendly staff."</p>
+        </div>
+        <div class="review-card">
+          <h3>Rohit</h3>
+          <p>⭐⭐⭐⭐⭐</p>
+          <p>"Highly recommend their Cold Brew."</p>
+        </div>
+      </section>
+      <figure id="gallery">
+        <img
+          src="image/coffee.jpg"
+          alt="coffee image"
+          height="100"
+          width="100"
+        />
+      </figure>
+      <figcaption>Our Signature Coffee</figcaption>
+      <section>
+        <h2>FAQ</h2>
+        <details>
+          <summary>Do you provide free Wi-Fi?</summary>
+          <p>YES</p>
+        </details>
+        <details>
+          <summary>Are pets allowed?</summary>
+          <p>YES</p>
+        </details>
+        <details>
+          <summary>Do you offer takeaway?</summary>
+          <p>YES</p>
+        </details>
+        <details>
+          <summary>Can I reserve a table?</summary>
+          <p>YES</p>
+        </details>
+      </section>
+      <h2>Reservation Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required /><br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required /><br />
+        <label for="tel">Phone:</label>
+        <input type="tel" id="tel" required /><br />
+        <label for="date">Date:</label>
+        <input type="date" required /><br />
+        <label for="time">Time:</label>
+        <input type="time" required /><br />
+        <label for="guests">Numbers of Guests:</label>
+        <input type="text" id="guests" required /><br />
+        <label for="special request">Special Request:</label><br /><br />
+        <textarea></textarea><br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <section class="contact">
+        <h2 id="Contacts">Contact</h2>
+        <p>Brew Haven Coffee Shop</p>
+        <p>MG Road</p>
+        <p>Bengaluru</p>
+        <p>Phone: +91 9876543210</p>
+        <p>Email: contact@brewhaven.com</p>
+      </section>
+    </main>
+    <footer>
+      <p>© 2026 Brew Haven Coffee Shop</p>
+      <p>Crafted with HTML & CSS</p>
+      <a href="https://www.instagram.com/accounts/login/?hl=en">Instagram</a>
+      <a href="https://www.facebook.com/">Facebook</a>
+      <a href="https://www.youtube.com/">Youtube</a>
+    </footer>
+  </body>
+</html>

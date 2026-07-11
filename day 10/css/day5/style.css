@@ -1,0 +1,152 @@
+*{
+    margin:0px;
+}
+body{
+    background-color:bisque;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:20px;
+}
+header{
+    margin:2px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-color:20px solid black;
+}
+nav{
+    margin-bottom:25px;
+}
+
+nav a{
+    color:black;
+    font-weight:bold;
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    list-style:none;
+    padding:15px;
+    background-color: gold;
+}
+main{
+    padding:2px;
+}
+.hero{
+background:cornsilk;
+padding:30px;
+border-radius:15px;
+box-shadow:0 4px 10px gray;
+text-align:center;
+margin-bottom:25px;
+}
+.hero button{
+    margin-top:15px;
+    margin-right:10px;
+}
+a{
+    text-decoration: none;
+}
+.about{
+background:white;
+padding:20px;
+margin:25px 0;
+border-radius:15px;
+box-shadow:0 4px 10px gray;
+}
+.featured{
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 10px gray;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:30px;
+}
+th,td{
+    border:2px solid brown;
+    padding:10px;
+    text-align: center;
+}
+ .special{
+    text-align: center;
+}
+.special-offer{
+    display: inline-block;
+    background-color: gold;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+.Menu{
+   align-items: center;
+}
+section{
+    margin-bottom:30px;
+}
+button{
+    background-color:chocolate;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+}
+form{
+    border:2px solid brown;
+    border-radius:10px;
+    padding:20px;
+    margin-top:20px;
+}
+footer{
+    background-color:saddlebrown;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+footer a{
+    color:white;
+    margin:0 10px;
+}
+.review-card{
+background:white;
+padding:20px;
+margin:20px;
+border-radius:15px;
+box-shadow:0 4px 10px gray;
+}
+.contact{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 4px 10px gray;
+ margin-top:30px;
+}
+.contact p{
+    margin-bottom:8px;
+}
+h2{
+margin-bottom:15px;
+}
+p{
+line-height:1.6;
+}
+figure{
+    text-align:center;
+    margin:30px 0;
+}
+img{
+    width: 50%;
+    height: 50%;
+    border-radius:15px;
+    box-shadow:0 4px 10px gray;
+}
+figcaption{
+    text-align: center;
+    color: black;
+    font-style: italic;
+}.request{
+    padding:;
+}
