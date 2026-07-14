@@ -1,0 +1,128 @@
+*{
+    margin:0;
+}
+body{
+    background-color: aliceblue;
+}
+header{
+    background-color: midnightblue;
+    padding:20px;
+    text-align: center;
+    color: antiquewhite;
+}
+header h1  {
+    padding:10px;
+
+}
+nav{
+    background-color: royalblue;
+    position: sticky;
+    top:0;
+    z-index:100;
+    margin-top: 5px;
+    height: 20px;
+    border-radius: 20px;
+}
+nav ul{
+    display: flex;
+   justify-content:space-evenly;
+    text-align: justify;
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+    background-color: orange;
+}
+.hero{
+    padding: 20px;
+    background-color: lightcyan;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px lightcoral;
+   transition:0.4s;
+   margin-top: 10px;
+   text-align: center;
+}
+.hero button {
+    background-color: royalblue;
+    padding: 2px;
+    text-align: justify;
+    margin: 20px;
+    color:white;
+}
+.hero p{
+    padding:10px;
+}
+.about{
+background-color: white;
+padding: 10px;
+box-shadow: 10px 10px 5px grey;
+border-radius: 30px;
+margin-top: 20px;
+text-align: center;
+}
+.courses{
+    display:grid;
+    repeat: 6px;
+    gap:20px;
+    margin:20px;
+    padding: 10px;
+}
+.courses-card{
+    margin: 10px;
+    background-color:lightcoral;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+.courses-card button{
+    background-color: black;
+    color: white;
+    padding: 2px; 
+}
+.reviews-card{
+    display:flexbox;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px;
+    overflow: auto;
+    text-align: center;
+}
+:hover.reviews-card{
+    background-color: yellow;
+}
+.gallery{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+.gallery h2{
+    color: darkgoldenrod;
+}
+:hover.gallery{
+    background-color: aqua;
+}
+.price-card{
+    background-color: lightskyblue;
+    margin:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+:hover.price-card{
+    background-color: yellow;
+}
+footer{
+    text-align: center;
+    color:black;
+    background-color:lightcoral;
+    padding: 30px;
+}
+.contactus{
+    border:2px solid black;
+    text-align: center;
+}
